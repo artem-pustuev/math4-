@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/math.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./image/math.png">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+    <script src="./scripts/subtract.js" defer></script>
+    <title>Математика для детей</title>
+</head>
+
+<body>
+    <audio id="myAudio">
+        <source src="./audio/error.mp3">
+    </audio>
+    <header>
+        <div class="container">
+            <h1 class="title">Матиматика для детей 4+</h1>
+            <ul class="nav">
+                <li class="nav__item current">
+                    <a href="index.html" class="nav__item-link">
+                        Сумма
+                    </a>
+                </li>
+                <li class="nav__item current">
+                    <a href="subtract.html" class="nav__item-link">
+                        Вычитание
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="equation">
+            <h1 id="num1" style="color:#FFD700">1</h1>
+            <h1 style="color:#8f64d9">-</h1>
+            <h1 id="num2" style="color:#e71c1c">2</h1>
+            <h1 style="color:#e7881c">=</h1>
+            <h1 style="color:#e71c1c">?</h1>
+        </div>
+        <div class="answer__options">
+            <h1 id="option1">1</h1>
+            <h1 id="option2">2</h1>
+            <h1 id="option3">3</h1>
+        </div>
+    </div>
+</body>
+
+</html>
